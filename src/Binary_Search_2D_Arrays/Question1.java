@@ -12,9 +12,8 @@ public class Question1 {
                 {33, 34, 38, 50}
         };
         // printing target element
-        System.out.println(Arrays.toString(search(arr, 37)));  // Example target: 37
+        System.out.println(Arrays.toString(search(arr, 49)));  // Example target: 37
     }
-
     static int[] search(int matrix[][], int target) {
         int row = 0;
         int col = matrix[0].length - 1;  // Correct the initial column to the last column
