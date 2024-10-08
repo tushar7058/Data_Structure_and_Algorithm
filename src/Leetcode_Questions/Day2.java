@@ -21,7 +21,7 @@ Output: 0
 Explanation: The sum that is closest to the target is 0. (0 + 0 + 0 = 0).
 
  */
-public class closest_sum {
+public class Day2 {
     public int threeSumClosest(int[] nums, int target) {
         Arrays.sort(nums);
         int closestSum = Integer.MAX_VALUE;

@@ -20,7 +20,7 @@ The words "hello" and "world" from the message array both appear in the bannedWo
 
 
 import java.util.HashSet;
-public class Que2 {
+public class Day1 {
     public boolean reportSpam(String[] message, String[] bannedWords) {
         HashSet<String> set = new HashSet<>();
         for(int i=0;i<bannedWords.length;i++){
