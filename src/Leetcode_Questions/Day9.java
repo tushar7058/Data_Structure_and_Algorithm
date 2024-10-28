@@ -17,11 +17,9 @@ Explanation: The level sums are the following:
 - Level 4: 4 + 6 = 10.
 The 2nd largest level sum is 13.
 
-
 Input: root = [1,2,null,3], k = 1
 Output: 3
 Explanation: The largest level sum is 3.
-
 
  */
 
