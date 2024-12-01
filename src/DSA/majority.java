@@ -27,3 +27,32 @@ public class majority {
     }
 }
 
+/*
+// optimal solution
+
+int count =0;
+int ele;
+
+for(int i =0;i<v.length;i++)
+{
+if(count ==0){
+count =1;
+ele =v[i];
+}
+else if(v[i]==ele){
+count++;
+}
+else(){
+count--;
+}
+int count1 = 0;
+for(int i=0;iv.length;i++){
+if(v[i]==ele)
+count++;
+}
+if(count1>(v.length/2)){
+return ele;
+}
+return -1;
+
+ */
