@@ -6,13 +6,9 @@ import java.util.Scanner;
 
 public class arraylistExample {
     public static void main(String[] args) {
-
         Scanner in = new Scanner(System.in);
-
         // array list
         ArrayList<Integer>List = new ArrayList<>(); // defining arraylist
-
-
         // input
         for(int i = 0;i<5;i++){
             List.add(in.nextInt());
