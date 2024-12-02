@@ -52,7 +52,6 @@ public class Day4 {
 
         return false;
     }
-
     private boolean dfs(char[][] board, String word, int r, int c, int k) {
         if (k == word.length()) {
             return true;
