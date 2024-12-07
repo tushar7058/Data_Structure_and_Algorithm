@@ -1,5 +1,5 @@
 package DSA;
-import java.util.*;
+// import java.util.*;
 public  class majority_optimal {
     public static int majorityElement(int []v) {
         //size of the given array:

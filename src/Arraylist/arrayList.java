@@ -1,5 +1,4 @@
 package Arraylist;
-
 import java.util.*;
 class TestArrayLinked{
     public static void main(String args[]){

@@ -2,10 +2,10 @@ package Pattern_Questions;
 
 public class pattern2 {
     public static void main(String[] args) {
-        pattern2(4);
+        pattern1(4);
         
     }
-    static  void pattern2(int n){
+    static  void pattern1(int n){
         for(int row = 1;row<=n;row++){
             // for every row ,run the col
             for(int col=1;col<=n;col++){
