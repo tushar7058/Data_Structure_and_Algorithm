@@ -1,9 +1,7 @@
 package DSA;
 import java.util.HashMap;
 import java.util.Map;
-
 //Count Subarray sum Equals K
-
 public class count_subarray {
     public static int findAllSubarraysWithGivenSum(int arr[], int k) {
         int n = arr.length; // size of the given array.

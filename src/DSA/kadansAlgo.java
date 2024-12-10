@@ -20,7 +20,6 @@ public class kadansAlgo {
         // uncomment the following check:
 
         // if(maxi<0)maxi=0;
-
         return maxi;
     }
     public static void main(String[] args) {
@@ -30,3 +29,4 @@ public class kadansAlgo {
         System.out.println(STR."maximum subarray sum is :\{maxSum}");
     }
 }
+

@@ -3,7 +3,7 @@ package DSA.LinkedList;
 // Node class
 class Node {
     int data;
-    Node next;
+    ListNode next;
 
     // Constructor
     Node(int data) {
@@ -13,17 +13,17 @@ class Node {
 }
 
 // LinkedList class
-class LinkedList {
-    Node head;
+class lec1 {
+    ListNode head;
 
     // Method to append a new node at the end
     public void append(int data) {
-        Node newNode = new Node(data);
+        ListNode newNode = new ListNode(data);
         if (head == null) { // If list is empty
             head = newNode;
             return;
         }
-        Node current = head;
+        ListNode current = head;
         while (current.next != null) {
             current = current.next;
         }
@@ -36,7 +36,7 @@ class LinkedList {
             System.out.println("List is empty.");
             return;
         }
-        Node current = head;
+        ListNode current = head;
         while (current != null) {
             System.out.print(current.data + " -> ");
             current = current.next;
@@ -57,8 +57,8 @@ class LinkedList {
             return;
         }
 
-        Node current = head;
-        Node previous = null;
+        ListNode current = head;
+        ListNode previous = null;
 
         // Search for the key
         while (current != null && current.data != key) {
@@ -77,7 +77,7 @@ class LinkedList {
     }
 
     public static void main(String[] args) {
-        LinkedList list = new LinkedList();
+        lec1 list = new lec1();
 
         // Append nodes
         list.append(10);
