@@ -1,8 +1,4 @@
 package DSA.LinkedList;
-
-
-import javax.swing.plaf.SplitPaneUI;
-
 class Node1{
     int data;
     Node1 next;
