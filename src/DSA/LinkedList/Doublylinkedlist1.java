@@ -12,7 +12,6 @@ class DListNode {
         this.prev = null;
     }
 }
-
 // DoublyLinkedList class to manage the list
 public class Doublylinkedlist1 {
     DListNode head; // Head of the doubly linked list

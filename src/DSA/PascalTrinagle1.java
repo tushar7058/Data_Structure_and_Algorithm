@@ -17,7 +17,6 @@ public class PascalTrinagle1 {
         }
         System.out.println();
     }
-
     public static void main(String[] args) {
         int n = 5;
         pascalTriangle(n);

@@ -16,9 +16,7 @@ public class majorityOpt {
                 --var2;
             }
         }
-
         int var6 = 0;
-
         for(int var5 = 0; var5 < var1; ++var5) {
             if (var0[var5] == var3) {
                 ++var6;
@@ -31,7 +29,6 @@ public class majorityOpt {
             return -1;
         }
     }
-
     public static void main(String[] var0) {
         int[] var1 = new int[]{2, 2, 1, 1, 1, 2, 2};
         int var2 = majorityElement(var1);
