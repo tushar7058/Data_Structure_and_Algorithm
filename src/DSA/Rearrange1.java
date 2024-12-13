@@ -9,7 +9,6 @@ public class Rearrange1 {
 
         ArrayList<Integer> positve = new ArrayList<>();
         ArrayList<Integer>Negative  = new ArrayList<>();
-
         // Segregate the array into positives and negatives.
         for (int j : arr) {
             if (j > 0) positve.add(j);
