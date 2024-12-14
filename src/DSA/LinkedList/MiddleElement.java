@@ -1,8 +1,5 @@
 package DSA.LinkedList;
 
-
-import java.util.*;
-
 // Node class represents a node in a linked list
 class Node4{
     // Data stored in the node
@@ -52,7 +49,7 @@ public class MiddleElement {
         // Find the middle node
         Node middleNode = findMiddle(head);
         // Display the value of the middle node
-        System.out.println(STR."The middle node value is: \{middleNode.data}");
+        System.out.println("The middle node value is:"+findMiddle(head));
     }
 }
 
