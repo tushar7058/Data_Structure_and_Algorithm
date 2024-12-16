@@ -26,7 +26,7 @@ public class kadansAlgo {
         int arr[] = {-2,1,-3,4,-1,2,1,-5,4};
         int n =arr.length;
         long maxSum = maxSubarraySum(arr,n);
-        System.out.println(STR."maximum subarray sum is :\{maxSum}");
+        System.out.print(maxSubarraySum(arr, n));
     }
 }
 

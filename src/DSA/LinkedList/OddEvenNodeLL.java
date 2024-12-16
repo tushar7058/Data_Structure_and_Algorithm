@@ -1,7 +1,5 @@
 package DSA.LinkedList;
 
-
-
 class OddEvenNode {
     int val;
     OddEvenNode next;
