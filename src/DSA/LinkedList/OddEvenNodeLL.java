@@ -9,8 +9,7 @@ class OddEvenNode {
         next = null;
     }
 }
-
-class TUF {
+public class  OddEvenNodeLL{
     static OddEvenNode head, tail; // head and tail of the LinkedList
 
     static void PrintList(OddEvenNode head) // Function to print the LinkedList
@@ -56,7 +55,6 @@ class TUF {
         // Appending odd LinkedList at the end of even LinkedList
         return evenHead.next;
     }
-
     public static void main(String args[]) {
         InsertatLast(1);
         InsertatLast(2);
@@ -69,4 +67,3 @@ class TUF {
         PrintList(newHead);
     }
 }
-
