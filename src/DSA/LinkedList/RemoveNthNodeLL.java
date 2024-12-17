@@ -16,7 +16,6 @@ class DeleteNthNode {
         next = null;
     }
 }
-
 public class RemoveNthNodeLL{
     // Function to print the linked list
     public static void printLL(DeleteNthNode head) {
