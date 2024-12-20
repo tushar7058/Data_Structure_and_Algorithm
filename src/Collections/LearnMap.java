@@ -3,6 +3,7 @@ package Collections;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
+@SuppressWarnings("unused")
 public class LearnMap{
     public static void main(String[] args) {
 
