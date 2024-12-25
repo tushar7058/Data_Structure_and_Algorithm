@@ -1,6 +1,7 @@
 package DSA.StackQueue;
 import java.util.*;
-class NextGreaterElement2 {
+
+public class NextGreaterElement2 {
     public int[] nextGreaterElements(int[] nums) {
         int n = nums.length; 
         int nge [] = new int[n]; // creating n size arrr  to save ans
