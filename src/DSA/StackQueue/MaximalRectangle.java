@@ -1,5 +1,5 @@
 package DSA.StackQueue;
-
+import java.util.*;
 public class MaximalRectangle {
     public int maximalRectangle(char[][] matrix) {
         if (matrix == null || matrix.length == 0 || matrix[0].length == 0)
