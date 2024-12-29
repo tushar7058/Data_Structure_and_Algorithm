@@ -1,6 +1,7 @@
 package DSA.StackQueue;
 
 import java.util.*;
+
 public class SlidingWindowMaximum {
     public int[] maxSlidingWindow(int[] nums, int k) {
         // Assume nums is not null
@@ -20,16 +21,26 @@ public class SlidingWindowMaximum {
             while (win.size() > 0 && nums[win.peekLast()] < nums[i]) {
                 win.pollLast();
             }
-            // Add nums[i]
+            // Add current index to the deque
             win.offerLast(i);
-            // Add to result
+            // Add the maximum value of the current window to the result
             if (i >= k - 1) {
                 result[i - k + 1] = nums[win.peekFirst()];
             }
         }
         return result;
     }
+
+    public static void main(String[] args) {
+        SlidingWindowMaximum solution = new SlidingWindowMaximum();
+        int[] nums = {1, 3, -1, -3, 5, 3, 6, 7};
+        int k = 3;
+        int[] result = solution.maxSlidingWindow(nums, k);
+        System.out.println(Arrays.toString(result)); // Expected output: [3, 3, 5, 5, 6, 7]
+    }
 }
+
+
 
 
 
