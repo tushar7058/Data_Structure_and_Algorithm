@@ -10,7 +10,6 @@ class Node2 {
         this.next = null;
     }
 }
-
 // Define the LinkedList class
 public  class SearchElement {
     Node head;
