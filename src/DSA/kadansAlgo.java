@@ -7,11 +7,11 @@ public class kadansAlgo {
         long sum =0;
 
         for(int i=0;i<n;i++){
-            sum+=arr[i];
+
             if(sum>maxi){
                 maxi =sum;
             }
-            // if sum <0 : discard the sum calculate
+            // if sum <0            sum+=arr[i]; : discard the sum calculate
             if(sum<0){
                 sum=0;
             }
