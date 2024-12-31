@@ -1,12 +1,10 @@
 package DSA.StackQueue;
-
 // Find the celebrity problem 
-public class CelebrityProb {
-   
+
+public class CelebrityProb { 
     public static int celebrity(int matrix[][]) {
         int top = 0; 
         int down = matrix.length - 1;
-    
         // Step 1: Find the candidate
         while (top < down) {
             if (matrix[top][down] == 1) {
@@ -15,7 +13,6 @@ public class CelebrityProb {
                 down--; // Top does not know Down, so Down cannot be a celebrity
             }
         }
-    
         // Step 2: Validate the candidate
         int candidate = top;
         for (int i = 0; i < matrix.length; i++) {
@@ -24,17 +21,14 @@ public class CelebrityProb {
                 return -1; // No celebrity found
             }
         }
-    
         return candidate; // Candidate is the celebrity
     }
-    
     public static void main(String[] args) {
         int[][] matrix = {
             {0, 1, 0},
             {0, 0, 0},
             {1, 1, 0}
         };
-    
         int result = celebrity(matrix);
         if (result == -1) {
             System.out.println("No celebrity found.");
