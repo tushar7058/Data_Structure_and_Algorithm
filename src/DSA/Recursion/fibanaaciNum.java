@@ -1,4 +1,4 @@
-package Recursion;
+package DSA.Recursion;
 
 public class fibanaaciNum {
     public static void main(String[] args) {

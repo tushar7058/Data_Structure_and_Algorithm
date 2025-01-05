@@ -1,4 +1,4 @@
-package Recursion;
+package DSA.Recursion;
 // Recursion : function can call itself.
 
 public class Num {
