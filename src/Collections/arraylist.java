@@ -13,10 +13,10 @@ public class arraylist {
         list.add(0,11);
         System.out.println(list);
 
-        for(int i =0;i< list.size();i++){
-            System.out.println(list.get(i));
-            break;
-        }
+        for (Integer element : list) {
+                    System.out.println(element);
+                    break;
+                }
         for(Integer i:list){
             System.out.println("new list through for each loop:"+ i);
             break;
