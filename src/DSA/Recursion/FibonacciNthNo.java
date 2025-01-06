@@ -1,4 +1,4 @@
-package Collections;
+package DSA.Recursion;
 
 public class FibonacciNthNo {
     public static void main(String[] args) {
