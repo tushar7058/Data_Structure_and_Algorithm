@@ -1,5 +1,5 @@
 package DSA;
-import java.util.*;
+
 public class Rotate_matrix1 {
     // optimal approach
     static void rotate(int[][] matrix) {
