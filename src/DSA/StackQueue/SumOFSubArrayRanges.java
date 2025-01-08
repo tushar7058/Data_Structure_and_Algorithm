@@ -12,7 +12,7 @@ public class SumOFSubArrayRanges {
                 j = s.pop();
                 k = s.isEmpty() ? -1 : s.peek();
                 res -= (long)nums[j]*(i-j)*(j-k);            
-                
+               
             }
             s.push(i);
         }
@@ -26,7 +26,7 @@ public class SumOFSubArrayRanges {
             s.push(i);
         }
         return res;
-    }
+    } 
 }
 
 /*
