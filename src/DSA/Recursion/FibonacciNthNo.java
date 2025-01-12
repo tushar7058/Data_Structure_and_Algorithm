@@ -2,7 +2,7 @@ package DSA.Recursion;
 
 public class FibonacciNthNo {
     public static void main(String[] args) {
-        System.out.println("fibonacci num is :"+fibo(0 ));
+        System.out.println("fibonacci num is :"+fibo(4 ));
     }
     static int  fibo(int n ){
         //base condition 
