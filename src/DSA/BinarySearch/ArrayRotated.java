@@ -1,8 +1,6 @@
 package DSA.BinarySearch;
 
 // Find out how many times array rotated
-
-import java.util.*;
 public class ArrayRotated {
     public static int findKRotation(int[] arr) {
         int low = 0, high = arr.length - 1;
