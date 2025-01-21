@@ -1,10 +1,6 @@
 package DSA;
 
-
-import java.util.*;
-
 public class PascalTriangle {
-
     // Variation 1
     public static long nCr(int n, int r) {
         long res = 1;
