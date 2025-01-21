@@ -1,4 +1,4 @@
-package DSA;
+ package DSA;
 
 public class Buy_and_Sell_Stocks {
 
