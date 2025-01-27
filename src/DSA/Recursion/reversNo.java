@@ -10,7 +10,6 @@ public class reversNo {
         
     }
     static int reversNo(){
-
-
+         return -1;
     }
 }
