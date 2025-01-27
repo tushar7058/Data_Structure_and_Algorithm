@@ -11,9 +11,7 @@ public class stack1 {
         stck.push(1);
         stck.push(2);
         System.out.println(stck);
-//        System.out.println("pop element is ;"+stck.pop());
+        System.out.println("pop element is ;"+stck.pop());
         System.out.println(stck.peek());
-
-
     }
 }

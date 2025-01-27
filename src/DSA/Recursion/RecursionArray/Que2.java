@@ -5,8 +5,8 @@ public class Que2 {
        
         int arr[] = {1,2,3,4,4,5,5,6,7};
         System.out.println("ans is based on Function : "+ find(arr, 4, 0));
-        System.out.println("ans is :"+findindex(arr, 4, 0));
-        System.out.println("ans is : "+findindeFromLast(arr, 4, 0));
+        System.out.println("ans is based on index :"+findindex(arr, 4, 0));
+        System.out.println("ans is search from last index : "+findindeFromLast(arr, 4, 0));
     }
     // give result on the basis of  True or false.
     static boolean find(int [] arr ,int target,int index){
@@ -26,7 +26,6 @@ public class Que2 {
         else{
             return findindex(arr, target, index+1);
         }
-  
     }
     // search from the last
     static int findindeFromLast(int [] arr ,int target,int index){
@@ -40,6 +39,5 @@ public class Que2 {
             return findindeFromLast(arr, target, index-1);
         }
     }
-
 }
 
