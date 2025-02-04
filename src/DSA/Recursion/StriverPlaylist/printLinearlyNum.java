@@ -1,5 +1,4 @@
 package DSA.Recursion.StriverPlaylist;
-
 public class printLinearlyNum {
     public static void main(String[] args) {
         PrintLinearly(0, 5);
