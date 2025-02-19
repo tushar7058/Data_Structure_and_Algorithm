@@ -23,4 +23,15 @@ class TestArrayLinked{
         List<String> al2=new LinkedList<String>();//creating linkedlist    
         return al2;
     }
+
+    static void add(){
+        List<Integer>ls = new ArrayList<Integer>();
+
+        // looop for adding Interger elements to the list 
+        Integer i =0;
+        while (ls.size()==10) {
+            ls.add(i);
+        }
+        
+    }
 } 
