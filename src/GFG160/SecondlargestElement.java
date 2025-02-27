@@ -34,9 +34,8 @@ public class SecondlargestElement {
           if( arr[i]>Secondlargest && arr[i]!=largest){
             Secondlargest = arr[i];
           }
-          return Secondlargest;
         }
-        return -1;
+        return Secondlargest;
     }
 
     public static int findSecondLargest(int[] arr) {
