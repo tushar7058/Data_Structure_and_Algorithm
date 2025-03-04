@@ -21,10 +21,8 @@ public class mergeTwoSortedArray {
             }
             index++;
         }
-
         // to add remaiing elements from nums1
-        while(left<m){
-            merge[index]=nums1[left];
+        while(left<m){            merge[index]=nums1[left];
             left++;
             index++;
         }

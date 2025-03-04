@@ -66,4 +66,8 @@ public class Doublylinkedlist1 {
         System.out.println("Doubly Linked List printed backward:");
         list.printBackward();
     }
+    public static void Hello (){
+        System.out.println("Hello man This is from Cursor");
+        
+    }
 }
