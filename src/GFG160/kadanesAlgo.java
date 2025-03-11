@@ -18,7 +18,6 @@ public class kadanesAlgo {
         }
         return res;
     }
-
     // better approach O(n) : only required one pass
    static int maxSum(int []arr){
         int maxSum = arr[0];
