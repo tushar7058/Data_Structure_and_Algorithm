@@ -1,4 +1,4 @@
-package Basics.LogicBuilding;
+
 
 public class multiplicationTable {
     public static void main(String[] args) {

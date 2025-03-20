@@ -1,4 +1,4 @@
-package Basics.LogicBuilding;
+
 // Java program for the above approach
 public class Dice {
     static void oppositeFaceOfDice(int n)  {

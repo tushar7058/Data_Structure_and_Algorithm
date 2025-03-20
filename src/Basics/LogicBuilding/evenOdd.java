@@ -1,4 +1,4 @@
-package Basics.LogicBuilding;
+
 import java.util.Scanner;
     // find out even odd number 
 public class evenOdd {

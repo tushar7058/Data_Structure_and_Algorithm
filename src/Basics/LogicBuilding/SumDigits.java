@@ -1,4 +1,4 @@
-package Basics.LogicBuilding;
+
 // Iterative Java Code to find sum of digits
 public class SumDigits {
     static int sumOfDigits(int n) {

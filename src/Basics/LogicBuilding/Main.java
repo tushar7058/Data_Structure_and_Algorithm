@@ -1,4 +1,4 @@
-package Basics.LogicBuilding;
+
 // Java implementation to find the number closest to n
 // and divisible by m
 public class Main {
