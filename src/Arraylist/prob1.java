@@ -3,6 +3,7 @@ package Arraylist;
 import java.util.ArrayList;
 
 public class prob1 {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>(); // declare arrayList
 

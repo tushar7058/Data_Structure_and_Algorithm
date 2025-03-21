@@ -32,6 +32,7 @@ public class input {
 
         for (int i =0 ; i< args.length;i++) s[i] = sc.next();
         System.out.println(Arrays.toString(s));
+        sc.close();
 
     }
 }
