@@ -18,5 +18,6 @@ public class arraylistExample {
             System.out.println(List.get(i));
         }
         System.out.println(List);
+        in.close();
     }
 }

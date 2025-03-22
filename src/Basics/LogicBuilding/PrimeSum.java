@@ -29,5 +29,14 @@ class PrimeSum {
         }
         return sum;
     }
-}
+} 
+ 
+// sum function
 
+Void sum(){
+int a= 10;
+int b = 20 ;
+int sum = a+b;
+system.out.println("sum is :"+sum);
+}
+Void sum(1,3);
