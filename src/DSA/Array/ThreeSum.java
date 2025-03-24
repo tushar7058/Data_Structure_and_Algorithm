@@ -1,9 +1,4 @@
 package DSA.Array;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
 import java.util.*;
 /*
 Example 1 :   
@@ -65,4 +60,28 @@ public class ThreeSum {
         }
         return new ArrayList<>(set);
     }
+
+    // Better Solution : 
+    public static List<List<Integer>> threeSum1(int[] nums, int n) {
+        // Set to store unique triplets
+        HashSet<List<Integer>> set = new HashSet<>();
+
+        for (int i = 0; i < n; i++) {
+            HashSet<Integer> set1 = new HashSet<>();
+            for (int j = i + 1; j < n; j++) {
+                int third = -(nums[i] + nums[j]);
+
+                // If third exists in set1, we found a triplet
+                if (set1.contains(third)) {
+                    List<Integer> temp = Arrays.asList(nums[i], nums[j], third);
+                    Collections.sort(temp); // Sort to ensure uniqueness
+                    set.add(temp); // Add to the main set
+                }
+                set1.add(nums[j]); // Move this outside the if block
+            }
+        }
+        // Convert set to list and return
+        return new ArrayList<>(set);
+    }
+
 }
