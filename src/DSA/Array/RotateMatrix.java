@@ -48,8 +48,7 @@ public class RotateMatrix {
         } 
     }
 
-    // Better Solution :
-
+    // Better Solution : no extra space
     // transpose 
     public void rotate1(int[][] matrix){
         int n = matrix.length;
