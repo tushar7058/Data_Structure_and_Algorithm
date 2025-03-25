@@ -1,1 +1,0 @@
-{"name":"Local: ThreeSum","url":"/Users/tushark/AI_Engg/Data_Structure_and_Algorithm/src/DSA/Array/ThreeSum.java","tests":[{"id":1742794923095,"input":"[-1,0,1,2,-1,-4]","output":" [[-1,-1,2],[-1,0,1]]"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/tushark/AI_Engg/Data_Structure_and_Algorithm/src/DSA/Array/ThreeSum.java","group":"local","local":true}
