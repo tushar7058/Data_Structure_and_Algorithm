@@ -28,7 +28,6 @@ public class searchin2D {
         }
         return max;  // Return max as an int, not an array
     }
-
     // Search method remains the same
     static int[] search2d(int arr[][], int target) {
         for (int row = 0; row < arr.length; row++) {
