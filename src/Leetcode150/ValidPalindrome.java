@@ -1,8 +1,7 @@
 public class ValidPalindrome{
 	public static void main(String[] args) {
 		String s = "mam";
-		System.out.println("The String is :"+isPalindrome(s));
-		
+		System.out.println("The String is :"+isPalindrome(s));	
 	}
 	public static boolean isPalindrome(String s) {
         // Edge case: If the string is empty, it's a palindrome
