@@ -12,7 +12,7 @@ public class ProductOfArray {
         
     }
     static int product(int []arr){
-
+            return 0;
 
     }
 }

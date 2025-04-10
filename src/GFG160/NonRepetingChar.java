@@ -1,3 +1,5 @@
+package GFG160;
+
 class NonRepetingChar{
 	public static void main(String[] args) {
 		
